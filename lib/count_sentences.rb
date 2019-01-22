@@ -16,7 +16,7 @@ class String
 
   def count_sentences
     count = 0
-    array = self.split(//)
+    array = self.split(/[.!?]/)
     array.each do |elem|
       count += 1
     end
