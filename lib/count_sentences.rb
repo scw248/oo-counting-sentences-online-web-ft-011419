@@ -18,7 +18,7 @@ class String
     count = 0
     array = self.split("." || "?" || "!")
     array.each do |elem|
-      #binding.pry
+      binding.pry
       count += 1
     end
     count
